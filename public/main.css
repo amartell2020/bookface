@@ -1,0 +1,32 @@
+nav {
+  background-color: grey;
+  height: 50px;
+  margin-top: -20px;
+}
+
+ul {
+  margin-left: 27%;
+  padding-top: 10px;
+}
+
+li {
+  padding: 15px;
+  font-size: 20px;
+  display: inline;
+}
+
+h1 {
+  padding-left: 35%;
+  font-family: serif;
+  font-size: 50px;
+}
+
+#profpic {
+  margin-left: 36%;
+  height: 250px;
+  width: 250px;
+  background-image: url('https://images-na.ssl-images-amazon.com/images/I/51IY4ohvfUL.jpg');
+  border: 1px solid black;
+  border-radius: 50%;
+  background-position: top;
+}
