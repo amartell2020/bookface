@@ -1,32 +1,91 @@
+body {
+  background-color: rgba(0, 154, 217, 0.69)
+}
+
 nav {
-  background-color: grey;
-  height: 50px;
+  background-color: rgb(0, 80, 135);
+  height: 70px;
+  width: 100%;
   margin-top: -20px;
 }
 
 ul {
-  margin-left: 27%;
-  padding-top: 10px;
+  margin-left: 20%;
 }
 
-li {
-  padding: 15px;
+ul li {
+  padding: 13px;
   font-size: 20px;
-  display: inline;
+  display: inline-block;
+  margin: 10px 10px;
 }
 
-h1 {
-  padding-left: 35%;
+ul li a:hover {
+  background-color: rgb(0, 159, 171);
+  font-size: 25px;
+  color: white;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+  background-color: rgb(175, 208, 208);
+  padding: 18px 20px;
+}
+
+section {
+  display: grid;
+  grid-template: 500px / 400px 600px;
+  grid-gap: 80px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#name {
+    background-color: rgb(145, 145, 145);
+    border-radius: 10px;
+}
+
+#bio {
+  background-color: rgb(179, 179, 179);
+  text-align: center;
+  height: 250px;
+  border-radius: 20px;
+}
+
+#uname {
+  text-align: center;
   font-family: serif;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 #profpic {
-  margin-left: 36%;
-  height: 250px;
-  width: 250px;
+  margin-left: 14%;
+  height: 270px;
+  width: 270px;
   background-image: url('https://images-na.ssl-images-amazon.com/images/I/51IY4ohvfUL.jpg');
   border: 1px solid black;
   border-radius: 50%;
   background-position: top;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+#ubio {
+  font-size: 25px;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.skills {
+  justify-content: center;
+}
+
+.uskills {
+  font-size: 20px;
+  width: 20%;
 }
